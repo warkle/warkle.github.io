@@ -1,0 +1,17 @@
+body{
+	margin:0;
+	height:700px;
+}
+
+#content{
+	display:flex;
+	flex-direction:column;
+}
+
+p{
+	text-indent:2em;
+}
+
+#price{
+	text-decoration:line-through;
+}

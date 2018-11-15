@@ -1,0 +1,25 @@
+
+#content{
+	align-items:center;
+	text-align:center;
+}
+
+#prods{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#intro{
+	width:100%;
+	text-align:center
+}
+
+.prod{
+	width:200px;
+}
+
+.part{
+	margin-top:20px;
+}
+
