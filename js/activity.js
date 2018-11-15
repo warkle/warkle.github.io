@@ -25,7 +25,7 @@ var data = {
 
 var eleIntro = document.querySelector('#intro')
 
-eleIntro.innerHTML = '<p>' + data.intro + '</p>'
+eleIntro.innerHTML = data.intro//'<p>' + data.intro + '</p>'
 
 var template = document.querySelector('template').innerHTML
 var eleProd = document.querySelector('#prods')
