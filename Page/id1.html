@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>活动1</title>
+		<script src='../js/utils.js'></script>
+		<link rel='stylesheet' href='../css/activity.css' type='text/css'/>	
+		<link rel='stylesheet' href='../css/global.css' type='text/css'/>	
+	</head>
+	
+	<body style=''> <!--background-image:url("../images/background/1.png");background-color:linear-gradient(rgba(255,0,0,1),rgba(255,0,0,.2));background-size:100%;background:linear-gradient(rgba(209, 48, 48,.8) 20%,rgba(255,0,0,.2) 100%);-->
+	
+		<div id='content'>
+		
+			<div class='part' id='header'></div>
+			<div class='part' id='intro'></div>
+			<div class='part' id='prods'></div>
+			<div class='part' id='footer'></div>
+		
+		</div>
+		
+		<template>
+			<!--<a href='Page/id$id$.html' >-->
+				<div class='prod' data-id='$id$'>
+					<image src='$src$' />
+					<div id='price'>原价:$price$</div>
+					<div>优惠价:$discount$</div>
+				</div>
+			<!--</a>-->
+		</template>
+		
+		<script src='../js/activity.js'></script>
+		
+	</body> 
+
+</html>

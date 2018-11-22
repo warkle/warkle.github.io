@@ -1,0 +1,28 @@
+
+#content{
+	align-items:center;
+	text-align:center;
+	font-size:36px;
+	height:2048px;
+}
+
+#prods{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#intro{
+	width:100%;
+	text-align:center;
+	font-size:72px;
+}
+
+.prod{
+	width:200px;
+}
+
+.part{
+	margin-top:20px;
+}
+
