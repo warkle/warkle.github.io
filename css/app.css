@@ -112,14 +112,20 @@ and (-webkit-min-device-pixel-ratio : 2)
 .seckilling-box .seckilling-title .seckilling-icon{width: .75rem;margin-right: .25rem;}
 .seckilling-box .seckilling-title .s_t span{width: .6rem;margin-right: .05rem;background-color: #31343a;color:#fff;font-size: 0.65rem;text-align: center;line-height: .9rem;-webkit-border-radius:.1rem;border-radius:.1rem;}
 .seckilling-box .seckilling-title .s_d{display: inline-block;margin-right: .05rem;width: .25rem;height: .9rem;line-height: .9rem;text-align: center;font-size: .7rem;font-weight: bold;}
-.seckilling-box li{float: left;width: 33%;}
+.seckilling-box li{float: left;width: 33%;margin-bottom:1rem;}
 .seckilling-box li.line1{margin-left:0.5%;}
 .seckilling-box li a{padding:0 .25rem;display: block;}
 .seckilling-box li a img{display: block;width: 100%;}
-.seckilling-box li .name{padding: 0 .25rem;font-size: .6rem;height: 1rem;line-height: 1rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
-.seckilling-box li .price{padding: .1rem 0 .2rem;color: #fe435d;font-size: .475rem;text-align: center;}
-.seckilling-box li .price .rob{font-size: .6rem;}
+/*seckilling-box li .description{padding: .1rem 0 .2rem;}*/
+.seckilling-box li .name{text-align: center;font-size: .5rem;/*height: 1rem;*/line-height: 1rem;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.seckilling-box li .priceO{font-size: 0;text-align: center;}
+.seckilling-box li .priceO .rob{font-size: .4rem;text-decoration:line-through;color: #aaa;}
+.seckilling-box li .priceO .rob .mny{text-decoration:line-through;color: #aaa;}
+.seckilling-box li .price{color: #fe435d;font-size: 0;text-align: center;}
+.seckilling-box li .price .rob{font-size: .4rem;}
 .seckilling-box li .price .discount{display:inline-block;float: right;overflow:hidden;margin-top:.05rem;width:1.5rem;height:.625rem;background-color:#fe435d;color: #fff;font-size: .475rem;text-align: center;-webkit-border-radius:.1rem;border-radius:.1rem;}
+.seckilling-box li .condition {font-size: 0;text-align: center;}
+.seckilling-box li .condition .cond{font-size: .1rem;}
 
 /* top slider*/
 .top-slider-wrapper{margin: .25rem .25rem 0 .25rem;}
@@ -178,3 +184,4 @@ and (-webkit-min-device-pixel-ratio : 2)
 
 /*¶¯Ì¬·µ»Ø¶¥²¿*/
 .fixed_box { position: fixed; bottom: .5rem; right: .5rem;display: none; }
+
